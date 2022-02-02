@@ -1,0 +1,12 @@
+@mixin container {
+    max-width: 1296px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+@mixin prg-main {
+    font-family: $main-f-f;
+    font-weight: 400;
+    font-size: $prg-f-z;
+    color: $main-f-c;
+}
